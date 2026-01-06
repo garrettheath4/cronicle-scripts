@@ -44,11 +44,11 @@ TZ=America/Los_Angeles TODOIST_TOKEN=your_api_token python3 todoist_auto_today.p
 
 ### Scheduled Execution
 
-For best results, schedule this script to run periodically (e.g., every hour or at the start of each day).
+For best results, schedule this script to run periodically (e.g., daily at 12:01 AM).
 
 **Cron example (every hour):**
 ```bash
-0 * * * * TODOIST_TOKEN=your_token /usr/bin/python3 /path/to/todoist_auto_today.py
+1 0 * * * TODOIST_TOKEN=your_token /usr/bin/python3 /path/to/todoist_auto_today.py
 ```
 
 ## License
