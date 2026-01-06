@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+
+###########################################################
+# NOTE: If you edit this file in the Cronicle UI, be sure #
+# to commit your changes in Git and push them to GitHub.  #
+###########################################################
+
 """
 todoist_today_scheduler.py
 ----------------------------------------
